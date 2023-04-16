@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DO-Downloader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="do-client\do_download.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="do-client\do_download_property.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="do-client\do_download_property_internal.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="do-client\do_download_status.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="do-client\do_error_helpers.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="do-client\download_impl.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="do-client\do_download.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="do-client\do_download_property.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="do-client\do_download_property_internal.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="do-client\do_download_status.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="do-client\do_error_helpers.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="do-client\do_errors.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="do-client\download_impl.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="do-client\download_interface.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="do-client\test_helpers.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="do-client\do_test_helpers.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DO-Downloader.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

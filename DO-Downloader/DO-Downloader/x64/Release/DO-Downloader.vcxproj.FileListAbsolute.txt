@@ -1,0 +1,3 @@
+C:\Users\michaelmeierm\source\repos\DO-Downloader\DO-Downloader\x64\Release\DO-Downloader.vcxproj.CopyComplete
+C:\Users\michaelmeierm\Desktop\DO-Downloader\DO-Downloader\x64\Release\DO-Downloader.vcxproj.CopyComplete
+C:\02_GitHub\DO-Downloader\DO-Downloader\DO-Downloader\x64\Release\DO-Downloader.vcxproj.CopyComplete
